@@ -70,7 +70,7 @@ def get_filtered_coinmarketcap_data() -> Optional[Dict]:
         flat_data = {**d, **usd_quote}
         
         # Ensure date is set
-        flat_data['date'] = d.get('date', datetime.now().strftime("%Y-%m-%d"))
+        flat_data['date'] = d.get('date', datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
         
         return {field: flat_data.get(field, None) for field in FIELDS}
         
