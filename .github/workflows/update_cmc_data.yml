@@ -6,7 +6,10 @@ on:
   workflow_dispatch:       
 
 jobs:
+  
   update-data:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     
     steps:
