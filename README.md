@@ -4,7 +4,7 @@
 
 # CMC Quotes Fetcher
 
-> 📊 Build your own crypto market data history without expensive API plans
+📊 Build your own crypto market data history without expensive API plans
 
 ## Why?
 - CoinMarketCap Pro = $299+/month
@@ -15,7 +15,6 @@
 - ✅ Daily automated fetching
 - ✅ Clean CSV output
 - ✅ Global metrics tracking
-- ✅ Zero maintenance
 
 ## Quick Start
 ```bash
